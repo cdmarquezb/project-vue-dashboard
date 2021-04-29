@@ -1,5 +1,5 @@
 <template>
-  <div class="p-grid p-fluid dashboard">
+  <div class="p-grid p-fluid dashboard" style="border: 3px dashed darkviolet">
     <div class="p-col-12 p-lg-4">
       <div class="card summary">
         <span class="title">Users</span>
