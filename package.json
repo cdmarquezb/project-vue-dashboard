@@ -7,9 +7,11 @@
   },
   "dependencies": {
     "chart.js": "^2.9.4",
+    "pp-vuex-web-services": "2.125.0",
     "primeflex": "^2.0.0",
     "primeicons": "^4.0.0",
     "primevue": "^3.0.1",
+    "useless-lib": "1.0.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
