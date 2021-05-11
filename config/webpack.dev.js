@@ -21,10 +21,10 @@ const devConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "dashboard",
+      name: "project_vue_dashboard",
       filename: "remoteEntry.js",
       exposes: {
-        "./DashboardApp": "./src/bootstrap",
+        "./project_vue_dashboard": "./src/bootstrap",
       },
       shared: packageJson.dependencies,
     }),

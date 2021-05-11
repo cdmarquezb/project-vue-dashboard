@@ -2,10 +2,12 @@ import { createApp } from "vue";
 import Dashboard from "./components/Dashboard.vue";
 
 // Mount function to start up the app
+let children = {};
+
 const mount = (el) => {
-  const app = createApp(Dashboard);
+  children= createApp(Dashboard);
   console.log("Mouting Vue Dashboard");
-  app.mount(el);
+  children.mount(el);
 };
 
 // If we are in development and in isolation,
@@ -20,4 +22,4 @@ if (process.env.NODE_ENV === "development") {
 
 // We are running through container
 // and we should export the mount function
-export { mount };
+export { mount, children };
